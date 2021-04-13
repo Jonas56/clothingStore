@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import Homepage from './pages/homepage/homepage.component';
-// import HatsPage from './pages/hatspage/hatspage.component';
+import ShopPage from './pages/shop/shop.component';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import './App.css';
 
 
-const HatsPage = () => (
-  <h1>HATS PAGE</h1>
-);
+
 
 class App extends Component {
   render() {
@@ -16,7 +14,7 @@ class App extends Component {
         <BrowserRouter>
           <Switch>
             <Route exact path='/' component={Homepage} />
-            <Route path='/hats' component={HatsPage} />
+            <Route path='/shop' component={ShopPage} />
           </Switch>
         </BrowserRouter>
       </div >
