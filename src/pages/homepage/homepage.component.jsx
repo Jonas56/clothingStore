@@ -1,10 +1,10 @@
 import React from 'react';
 import DirectoryMenu from '../../components/directory-menu/directory-menu.component';
-import './hompage.style.scss'
+import './homepage.styles.scss'
 
 const Homepage = () =>
 (
-    <div className="homepage">
+    <div className="homepage" >
         <DirectoryMenu />
     </div>
 );
